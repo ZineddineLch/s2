@@ -90,7 +90,8 @@ const handleSubmit=()=>{
                 <div className={`h-1 flex-1 ${currentStep >= 2 ? 'bg-green-600' : 'bg-gray-200'}`}></div>
               </div>
             )}
-            
+            {/**/} 
+           
             <form onSubmit={handleSubmit}>
               {/* Step 1: Personal Information */}
               {currentStep === 1 && (
